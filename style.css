@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,200;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,200;1,400&display=swap');
+
+body{
+    background-color: antiquewhite;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container{
+    min-height: 69vh;
+    min-width: 69vw;
+    background-color: black;
+    color: white;
+    font-family: 'Vanela Round',sans-serif;
+    display: flex;
+    margin: 20px;
+   
+    border-radius: 12px;
+    padding: 36px;
+    background-image: url('bg.jpg');
+}
+
+.bottom{
+    position: sticky;
+    height: 80px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons{
+    margin-top: 14px;
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+
+.songItemContainer{
+    margin-top: 74px;
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    color: black;
+  
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+
+.songItem img{
+    width: 43px;
+    margin: 0 23px 0;
+    border-radius: 32px;
+    
+}
+
+.timestamp{
+    margin: 0 23px 0;
+    
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    font-family: 'Vanela Round',sans-serif;
+
+}
+
+.songInfo img{
+   opacity: 0;
+   transition: opacity 0.4s ease-in;
+}
+
+@media only screen and (max-width: 1100px) {
+    body {
+      background-color: red;
+    }
+  }
+
+  .about{
+    width: 100%;
+    padding: 78px 0;
+    background-color: #191919;
+    color: white;
+
+  }
+
+  .about img{
+    width: 200px;
+    margin: 0 30px 0;
+    border-radius: 28px;
+  }
+
+  .about-text{
+    width: 550px;
+    font-size: 20px;
+
+  }
+
+  .main{
+    width: 1130px;
+    max-width: 95%;
+    margin:  auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 10px;
+
+  }
+
+  .about-text h1{
+    color: orange;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+  }
+
+  .about-text h4{
+    color: white;
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    letter-spacing: normal;
+  }
+
+  .about-text h5{
+    color: green;
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    letter-spacing: normal;
+  }
+
+  button{
+    background: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 10px;
+    border-radius: 20px;
+  }
